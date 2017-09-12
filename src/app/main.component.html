@@ -1,0 +1,9 @@
+<div class="container-fluid">
+  <header-component ng-if="$ctrl.authService.isLoggedIn()"></header-component>
+
+  <main class="main">
+    <div ui-view></div>
+  </main>
+
+  <footer-component></footer-component>
+</div>
